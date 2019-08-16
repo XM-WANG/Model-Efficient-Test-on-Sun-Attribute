@@ -1,0 +1,19 @@
+Namespace(batch_size=64, crop_h=128, crop_w=128, data_dir='/home/SENSETIME/wangzezhong/Downloads/ldhproject/sunAttribute_proj_2019_code/data', dataset='sun', depth=152, logs_dir='/home/SENSETIME/wangzezhong/Downloads/ldhproject/sunAttribute_proj_2019_code/logs', workers=12)
+SUN dataset loaded
+     subset  | # samples
+---------------------------------
+    train    |    10147
+    val      |        0
+    test     |     4170
+=> Loaded checkpoint '/home/SENSETIME/wangzezhong/Downloads/ldhproject/sunAttribute_proj_2019_code/logs/model_best.pth.tar'
+=> get epoch 100  best top5 recall 69.1%
+Test with best model:
+Extract Features: [10/66]	Time 0.125 (0.374)	Data 0.000 (0.116)	
+Extract Features: [20/66]	Time 0.126 (0.250)	Data 0.000 (0.058)	
+Extract Features: [30/66]	Time 0.126 (0.208)	Data 0.000 (0.039)	
+Extract Features: [40/66]	Time 0.125 (0.188)	Data 0.000 (0.029)	
+Extract Features: [50/66]	Time 0.124 (0.175)	Data 0.000 (0.023)	
+Extract Features: [60/66]	Time 0.124 (0.167)	Data 0.000 (0.019)	
+  Prec: 	 Top_1: 88.15% 	 Top_3: 77.87% 	 Top_5: 67.54%
+Recall: 	 Top_1: 15.93% 	 Top_3: 40.61% 	 Top_5: 56.28%
+

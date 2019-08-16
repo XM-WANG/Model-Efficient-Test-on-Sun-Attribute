@@ -1,0 +1,39 @@
+Namespace(batch_size=16, crop_h=128, crop_w=128, data_dir='/home/group12/sunAttribute_proj_2019_code/data', dataset='sun', depth=18, logs_dir='/home/group12/sunAttribute_proj_2019_code/logs', workers=12)
+SUN dataset loaded
+     subset  | # samples
+---------------------------------
+    train    |    10147
+    val      |        0
+    test     |     4170
+=> Loaded checkpoint '/home/group12/sunAttribute_proj_2019_code/logs/model_best.pth.tar'
+=> get epoch 20  best top5 recall 50.8%
+Test with best model:
+Extract Features: [10/261]	Time 0.049 (0.735)	Data 0.000 (0.558)	
+Extract Features: [20/261]	Time 0.041 (0.471)	Data 0.002 (0.360)	
+Extract Features: [30/261]	Time 1.092 (0.399)	Data 1.056 (0.308)	
+Extract Features: [40/261]	Time 0.056 (0.329)	Data 0.000 (0.247)	
+Extract Features: [50/261]	Time 0.037 (0.299)	Data 0.000 (0.221)	
+Extract Features: [60/261]	Time 0.047 (0.276)	Data 0.000 (0.203)	
+Extract Features: [70/261]	Time 0.064 (0.263)	Data 0.016 (0.194)	
+Extract Features: [80/261]	Time 2.004 (0.286)	Data 1.968 (0.218)	
+Extract Features: [90/261]	Time 0.079 (0.260)	Data 0.005 (0.195)	
+Extract Features: [100/261]	Time 0.038 (0.254)	Data 0.001 (0.189)	
+Extract Features: [110/261]	Time 0.067 (0.250)	Data 0.004 (0.187)	
+Extract Features: [120/261]	Time 0.024 (0.245)	Data 0.000 (0.183)	
+Extract Features: [130/261]	Time 0.111 (0.245)	Data 0.000 (0.183)	
+Extract Features: [140/261]	Time 1.912 (0.246)	Data 1.889 (0.184)	
+Extract Features: [150/261]	Time 0.044 (0.233)	Data 0.000 (0.172)	
+Extract Features: [160/261]	Time 0.046 (0.229)	Data 0.005 (0.169)	
+Extract Features: [170/261]	Time 0.082 (0.228)	Data 0.000 (0.169)	
+Extract Features: [180/261]	Time 0.090 (0.231)	Data 0.005 (0.171)	
+Extract Features: [190/261]	Time 0.068 (0.228)	Data 0.000 (0.168)	
+Extract Features: [200/261]	Time 1.136 (0.226)	Data 1.105 (0.166)	
+Extract Features: [210/261]	Time 0.087 (0.218)	Data 0.015 (0.158)	
+Extract Features: [220/261]	Time 0.076 (0.216)	Data 0.000 (0.157)	
+Extract Features: [230/261]	Time 0.041 (0.216)	Data 0.005 (0.157)	
+Extract Features: [240/261]	Time 0.043 (0.213)	Data 0.000 (0.154)	
+Extract Features: [250/261]	Time 0.269 (0.211)	Data 0.248 (0.153)	
+Extract Features: [260/261]	Time 0.753 (0.207)	Data 0.732 (0.150)	
+  Prec: 	 Top_1: 86.69% 	 Top_3: 74.83% 	 Top_5: 60.84%
+Recall: 	 Top_1: 15.70% 	 Top_3: 38.92% 	 Top_5: 50.88%
+

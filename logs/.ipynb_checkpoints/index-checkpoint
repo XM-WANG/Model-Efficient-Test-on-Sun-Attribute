@@ -1,0 +1,7 @@
+
+1. vgg
+2. res
+3. vgg+adam
+4. vgg+adam+le0.001
+
+1.test_log : vgg
